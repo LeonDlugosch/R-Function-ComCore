@@ -1,4 +1,4 @@
-# R-Function: com_core()
+# R-Function: ComCore()
 Functions to easily identify shared features in samples of differend groups (eg. experimental conditions or environments).
 Outputs a venn-diagram or data frame. 
 
