@@ -1,4 +1,4 @@
-com_core = function(df, groups, input = "abundance", min = 0.01, output = "plot"){
+ComCore = function(df, groups, input = "abundance", min = 0.01, output = "plot"){
   if(all(rownames(installed.packages()) != "venn")== TRUE){install.packages("venn")}
   # Transforming data to absence/presence matrix using 'min' as threshold
   if(input == "abundance"){
@@ -61,3 +61,4 @@ com_core = function(df, groups, input = "abundance", min = 0.01, output = "plot"
     return(res.df)
   }
 }
+
